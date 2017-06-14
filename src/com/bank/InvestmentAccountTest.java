@@ -1,4 +1,4 @@
-package com.company;
+package com.bank;
 
 import static org.junit.Assert.*;
 

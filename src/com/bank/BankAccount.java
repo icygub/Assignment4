@@ -1,4 +1,4 @@
-package com.company;
+package com.bank;
 
 /**
  * Created by Guapito on 6/14/2017.
