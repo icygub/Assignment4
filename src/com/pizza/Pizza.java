@@ -7,12 +7,12 @@ import java.util.ArrayList;
  */
 public abstract class Pizza implements Comparable {
 
-    private Size size;
-    private Type type;
-    private ArrayList<Toppings> toppings;
+    private String size;
+    private String type;
+    private ArrayList<String> toppings;
     private double cost;
 
-    public Pizza(Size size, Type type, ArrayList<Toppings> toppings, double cost) {
+    public Pizza(String size, String type, ArrayList<String> toppings, double cost) {
         this.size = size;
         this.type = type;
         this.toppings = toppings;

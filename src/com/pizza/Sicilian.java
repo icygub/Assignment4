@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class Sicilian extends Pizza {
 
-    public Sicilian(Size size, Type type, ArrayList<Toppings> toppings, double cost) {
+    public Sicilian(String size, String type, ArrayList<String> toppings, double cost) {
         super(size, type, toppings, cost);
     }
 

@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class Regular extends Pizza{
 
-    public Regular(Size size, Type type, ArrayList<Toppings> toppings, double cost) {
+    public Regular(String size, String type, ArrayList<String> toppings, double cost) {
         super(size, type, toppings, cost);
     }
 
